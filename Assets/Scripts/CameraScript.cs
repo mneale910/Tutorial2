@@ -14,6 +14,16 @@ public class CameraScript : MonoBehaviour
         
     }
 
+    void Update()
+    {
+        
+       if(Input.GetKeyDown("escape"))
+       {
+            Application.Quit();
+       } 
+
+    }
+
     // Update is called once per frame
     void LateUpdate()
     {
